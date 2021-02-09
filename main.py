@@ -146,11 +146,6 @@ def main():
     run = True
     while run:
         clock.tick(FPS)
-        # print(clock.get_time())
-
-        # if game_time % 5 == 0:
-        #     print(game_time)
-        print(game_time)
         if pause:
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
